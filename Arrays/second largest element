@@ -1,3 +1,38 @@
+### **Problem Statement (One Line)**
+
+**Given an integer array, return the second largest distinct element; if no such element exists, return `-1`.**
+
+### **Test Case 1**
+
+**Input:**
+
+nums = [8, 3, 5, 8, 2]
+``
+**Output:**
+5
+```
+
+**Explanation:**
+The distinct elements are `{8, 5, 3, 2}`. The largest is `8`, so the second largest is `5`.
+
+---
+
+### **Test Case 2**
+
+**Input:**
+
+nums = [7, 7, 7]
+```
+
+**Output:**
+
+-1
+```
+
+**Explanation:**
+There is no second largest **distinct** element because all elements are the same.
+
+CODE:
 class Solution {
     public int secondLargestElement(int[] nums) {
         int largest=Integer.MIN_VALUE;
